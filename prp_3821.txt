@@ -1,0 +1,46 @@
+ADHERED TO HANDOUT 2
+-------------------------------------------COMPILATION/BUG REPORT---------------------------------------------------------
+//SAHITHI BOINPALLI CS610 prp3821
+
+ ******OPTION 1******
+
+Huffman Encoding and Decoding In java :
+
+1) Works perfectly with txt files.
+2) The file is compressed in very less time. At maximum of 10secs.
+4) Works with pdf, docx,and images in terms with compression of files but files not restored properly.
+5) Tested on AFS machine.
+
+For Huffman Encoding:
+Compile instruction: javac filename.java
+Execution instruction: java filename file(to be encoded).txt
+
+Example:
+Compile instruction: javac henc3821.java
+Execution instruction: java henc3821 sampletext.txt
+
+For Huffman Decoding:
+Execution instruction: java filename file(to be decoded).txt
+
+Example:
+Execution instruction: java hdec3821 sampletext.txt
+
+ ******OPTION 2******
+
+PageRank and HITS Algorithm is implemented and no problem was observed. 
+
+For HITS Algorithm:
+Compile instruction: javac filename.java
+Execution instruction: java filename iterations initialvalue file.txt
+
+Example:
+Compile instruction: javac hits3821.java
+Execution instruction: java hits3821 15 -1 samplegraph.txt
+
+For PageRank Algorithm:
+Compile instruction: javac filename.java
+Execution instruction: java filename iterations initialvalue file.txt
+
+Example:
+Compile instruction: javac pgrk3821.java
+Execution instruction: java pgrk3821 15 -1 samplegraph.txt
